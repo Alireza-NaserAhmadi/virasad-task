@@ -1,38 +1,253 @@
-.App {
-  text-align: center;
+
+
+@import '~antd/dist/antd.css';
+
+
+
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #364066;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div-img-traced{
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.img-traced{
+  position: absolute;
+  height: 48px;
+  margin-right: 8px;
+  
+}
+.img-tracedon{
+height: 34.01px;
+}
+.img-onitait{
+  width: 100px;
+height: 34px;
+}
+.css-1k455el{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+  width: 100%;
+  display: flex;
+  justify-content: end !important;
+  align-items: flex-start !important;
+}
+.css-cveggr-MuiListItemIcon-root{
+  min-width: 37px !important;
+}
+.menu-text{
+  color: #928EA0;
+  font-weight: 500 !important;
+}
+.css-h4y409-MuiList-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.side-menu-list{
+  margin-top: 20px;
+}
+.side-menu-log-out{
+  padding: 8px;
+  margin: 9px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #928EA0;
+  border-radius: 10px;
+  background:  linear-gradient(132.25deg, rgba(255, 255, 255, 0.15) -17.8%, rgba(255, 255, 255, 0) 109.28%);
+}
+.side-menu-log-out-info{
+  display: flex;
+}
+.log-out-name{
+  font-size: 15px;
+  font-weight: 600;
+  color: #928EA0;
+}
+.log-out-email{
+  font-size: 13px;
+  font-weight: 400;
+  color: #928EA0;
+}
+.admin-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+.log-out-part{
+  margin-top: 15px;
+  color: #928EA0;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.log-out-icon{
+  
+  margin-left: 8px;
+  margin-right: 21px;
+  font-size: 20px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root{
+  color: #364066 !important;
+  background-color: #fff !important;
+  height: 60px !important;
+  box-shadow: none !important;
+}
+.css-jzk4qw-MuiPaper-root-MuiAppBar-root{
+  color: #364066 !important;
+  background-color: #fff !important;
+  height: 60px !important;
+}
+.ant-tabs-top > .ant-tabs-nav{
+margin: 0px !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  background-color: #A3A3D9 !important;
+  color: #5248AC !important;
+  padding: 6px !important;
+  border-radius: 5px !important;
+}
+.ant-tabs{
+color: rgba(54, 64, 102, 0.4);
+}
+.card-time{
+  padding:18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#6D7D93
+}
+.card-time-text{
+  font-weight: 600;
+}
+.edit-icon{
+  font-size: 20px;
+}
+.card-day{
+  display: flex;
+  justify-content: space-evenly;
+ padding:0px 10px;
+}
+.ant-tag-checkable{
+  border: 1px solid #E7E8F2;
+  color: #8A92A6;
+  border-radius: 8px;
+  margin-right: 6px;
+}
+.ant-tag-checkable-checked{
+  border-color:#0D3C6C !important;
+  color: #0D3C6C !important;
+  background-color: #fff !important;
+}
+.ant-card-body{
+  padding: 0px !important;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-user{
+  /* margin: 5px 10px; */
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  padding: 0px 10px;
+  background-color: #F8F8FC;
+  border-radius: 5px;
+}
+.card-user-line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+
+}
+.card-user-line-text{
+  color: #8A92A6;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-user-line-icon{
+  color: #8A92A6;
+}
+.ant-avatar.ant-avatar-icon{
+  font-size: 21px !important;
+}
+.ant-avatar{
+  width: 24px !important;
+  height: 24px !important;
+  display: flex;
+  justify-content: center;
+
+}
+.avatar{
+  display: flex;
+  justify-content: center;
+}
+.card-user-info{
+  padding: 5px 0px;
+}
+.card-user-info-name{
+ justify-content: start;
+ display: flex;
+ color: #8A92A6;
+ font-weight: 500;
+ font-size: 16px;
+}
+.card-user-info-station{
+  justify-content: end;
+  padding-right: 10px;
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  color: #8A92A6;
+  opacity: 0.64;
+}
+.card-user-info-base{
+  display: flex;
+  margin: 15px 4px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 0px;
+  align-items: center;
+}
+.manage-add-button{
+  background-color: #5248AC;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+.add-button{
+  display: flex;
+  /* margin-right: 30px; */
+  align-items: end;
+  justify-content: end;
+}
+.manage-text{
+color: rgba(54, 64, 102, 0.8);
+font-size: 22px;
+font-weight: 500;
+margin-left: 8px;
+}
+.manage-icon{
+  font-size: 20px;
+  color: rgba(54, 64, 102, 0.8);
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
+}
+.link-active{
+  background: linear-gradient(90deg, #FFFFFF 0%, rgba(74, 104, 119, 0.14) 100%);;
+ 
+  text-decoration: none;
 }
